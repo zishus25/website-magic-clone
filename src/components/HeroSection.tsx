@@ -5,7 +5,7 @@ import { ArrowDown } from "lucide-react";
 
 export const HeroSection = () => {
   const [displayText, setDisplayText] = useState("");
-  const fullText = "Hi, I'm a Full Stack Developer|";
+  const fullText = "Hi, I'm Zishu Ahmad|";
   
   useEffect(() => {
     let currentIndex = 0;
@@ -52,7 +52,7 @@ export const HeroSection = () => {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-xl md:text-2xl text-muted-foreground mb-4"
           >
-            Building Innovative Web Solutions
+            Full Stack Developer & UI/UX Designer
           </motion.p>
           
           <motion.p

@@ -5,17 +5,17 @@ import { Download, Eye, Briefcase, GraduationCap, Award, Code } from "lucide-rea
 
 export const ResumeSection = () => {
   const stats = [
-    { value: "50+", label: "Projects Completed" },
-    { value: "3+", label: "Years Experience" },
+    { value: "30+", label: "Projects Completed" },
+    { value: "2+", label: "Years Experience" },
     { value: "15+", label: "Technologies" },
-    { value: "100%", label: "Client Satisfaction" },
+    { value: "98%", label: "Client Satisfaction" },
   ];
 
   const highlights = [
     {
       icon: Briefcase,
       title: "Professional Experience",
-      description: "3+ years of full-stack development with cutting-edge technologies",
+      description: "2+ years of full-stack development with modern web technologies",
     },
     {
       icon: GraduationCap,
@@ -59,8 +59,8 @@ export const ResumeSection = () => {
         >
           <Card className="p-8 bg-card/50 backdrop-blur border-primary/10 mb-8">
             <div className="text-center mb-8">
-              <h3 className="text-3xl font-bold mb-2">Full Stack Developer</h3>
-              <p className="text-lg text-primary">Passionate Developer | Problem Solver | Innovation Expert</p>
+              <h3 className="text-3xl font-bold mb-2">Zishu Ahmad - Full Stack Developer</h3>
+              <p className="text-lg text-primary">Passionate Developer | Problem Solver | Quick Learner</p>
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">

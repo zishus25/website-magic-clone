@@ -21,7 +21,7 @@ export const AboutSection = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-center">About Me</h2>
           <p className="text-lg text-muted-foreground text-center max-w-3xl mx-auto mb-12">
-            A passionate full-stack developer dedicated to creating innovative solutions and continuously learning new technologies.
+            A passionate 19-year-old developer from India, dedicated to creating innovative solutions and continuously learning new technologies.
           </p>
         </motion.div>
 
@@ -35,16 +35,17 @@ export const AboutSection = () => {
             <Card className="p-8 bg-card/50 backdrop-blur border-primary/10 hover:border-primary/30 transition-all duration-300">
               <h3 className="text-2xl font-bold mb-4 text-primary">My Journey</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Starting my programming journey with a deep passion for creating digital solutions that make a difference. 
-                I've developed expertise in modern web technologies and methodologies.
+                At 19, I've already embarked on an exciting journey in full-stack development. Starting my programming 
+                journey at 16, I've developed a deep passion for creating digital solutions that make a real impact.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 My approach combines creative problem-solving with technical expertise, always aiming for clean, 
-                efficient code that delivers exceptional user experiences.
+                efficient code that delivers exceptional user experiences. From building responsive frontends to 
+                architecting robust backends, I love every aspect of web development.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Currently focusing on full-stack development, I enjoy working on projects that challenge me to 
-                grow and learn something new every day.
+                Currently focusing on mastering modern tech stacks like React, Node.js, and TypeScript, I enjoy 
+                working on challenging projects that push me to grow and learn something new every day.
               </p>
             </Card>
           </motion.div>

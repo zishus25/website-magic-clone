@@ -13,9 +13,9 @@ export const ContactSection = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "your.email@example.com" },
-    { icon: Phone, label: "Phone", value: "Currently Unavailable" },
-    { icon: MapPin, label: "Location", value: "Your City, Country" },
+    { icon: Mail, label: "Email", value: "zishus76@gmail.com" },
+    { icon: Phone, label: "Phone", value: "Available on Request" },
+    { icon: MapPin, label: "Location", value: "India" },
   ];
 
   return (
