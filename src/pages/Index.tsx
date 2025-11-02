@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { LoadingScreen } from "@/components/LoadingScreen";
 import { HeroSection } from "@/components/HeroSection";
 import { AboutSection } from "@/components/AboutSection";
+import { PhilosophySection } from "@/components/PhilosophySection";
 import { SkillsSection } from "@/components/SkillsSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { ExperienceSection } from "@/components/ExperienceSection";
@@ -28,6 +29,7 @@ const Index = () => {
         <>
           <HeroSection />
           <AboutSection />
+          <PhilosophySection />
           <SkillsSection />
           <ProjectsSection />
           <ExperienceSection />
@@ -37,7 +39,7 @@ const Index = () => {
           {/* Footer */}
           <footer className="py-8 border-t border-primary/10">
             <div className="container mx-auto px-4 text-center text-muted-foreground">
-              <p>© 2024 Full Stack Developer Portfolio. Built with React, TypeScript & Tailwind CSS.</p>
+              <p>© 2024 Zishu Ahmad. Built with React, TypeScript & Tailwind CSS.</p>
             </div>
           </footer>
         </>
