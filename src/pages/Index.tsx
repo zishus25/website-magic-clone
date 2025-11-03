@@ -8,6 +8,7 @@ import { ProjectsSection } from "@/components/ProjectsSection";
 import { ExperienceSection } from "@/components/ExperienceSection";
 import { ResumeSection } from "@/components/ResumeSection";
 import { ContactSection } from "@/components/ContactSection";
+import { Toaster } from "@/components/ui/toaster";
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -39,11 +40,12 @@ const Index = () => {
           {/* Footer */}
           <footer className="py-8 border-t border-primary/10">
             <div className="container mx-auto px-4 text-center text-muted-foreground">
-              <p>© 2024 Zishu Ahmad. Built with React, TypeScript & Tailwind CSS.</p>
+              <p>© 2024 Zishu. Built with React, TypeScript & Tailwind CSS.</p>
             </div>
           </footer>
         </>
       )}
+      <Toaster />
     </div>
   );
 };

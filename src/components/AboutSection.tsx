@@ -65,7 +65,7 @@ export const AboutSection = () => {
                 transition={{ duration: 0.4, delay: index * 0.1 }}
                 viewport={{ once: true }}
               >
-                <Card className="p-6 bg-card/50 backdrop-blur border-primary/10 hover:border-primary/30 hover:shadow-[0_0_30px_rgba(74,222,128,0.15)] transition-all duration-300 h-full">
+                <Card className="p-6 bg-card/50 backdrop-blur border-primary/10 hover:border-primary/30 hover:shadow-[0_0_30px_hsl(var(--primary)/0.15)] transition-all duration-300 h-full">
                   <feature.icon className="h-8 w-8 text-primary mb-3" />
                   <h4 className="font-semibold mb-2">{feature.title}</h4>
                   <p className="text-sm text-muted-foreground">{feature.description}</p>

@@ -59,7 +59,7 @@ export const ResumeSection = () => {
         >
           <Card className="p-8 bg-card/50 backdrop-blur border-primary/10 mb-8">
             <div className="text-center mb-8">
-              <h3 className="text-3xl font-bold mb-2">Zishu Ahmad - Full Stack Developer</h3>
+              <h3 className="text-3xl font-bold mb-2">Zishu - Full Stack Developer</h3>
               <p className="text-lg text-primary">Passionate Developer | Problem Solver | Quick Learner</p>
             </div>
 
@@ -105,7 +105,7 @@ export const ResumeSection = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-background shadow-[0_0_30px_rgba(74,222,128,0.3)] hover:shadow-[0_0_50px_rgba(74,222,128,0.5)] transition-all duration-300"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-[0_0_30px_hsl(var(--primary)/0.3)] hover:shadow-[0_0_50px_hsl(var(--primary)/0.5)] transition-all duration-300"
               >
                 <Download className="h-5 w-5 mr-2" />
                 Download Full Resume
@@ -130,7 +130,7 @@ export const ResumeSection = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-background"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground"
                 onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
               >
                 Schedule Interview
