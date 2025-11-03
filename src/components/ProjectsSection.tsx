@@ -3,36 +3,48 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, Star } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import ecommerceImg from "@/assets/ecommerce-project.jpg";
+import taskManagementImg from "@/assets/task-management-project.jpg";
+import weatherImg from "@/assets/weather-dashboard-project.jpg";
+import analyticsImg from "@/assets/social-analytics-project.jpg";
 
 export const ProjectsSection = () => {
   const projects = [
     {
       title: "E-Commerce Platform",
       description: "Full-stack e-commerce solution with modern UI, payment integration, and admin dashboard.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=400&fit=crop",
+      image: ecommerceImg,
       tags: ["Next.js", "Node.js", "MongoDB", "Stripe"],
       featured: true,
+      github: "https://github.com/zishuahmad/ecommerce-platform",
+      demo: "https://ecommerce-demo.vercel.app"
     },
     {
       title: "Task Management App",
       description: "Collaborative task management tool with real-time updates and team collaboration features.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=400&fit=crop",
+      image: taskManagementImg,
       tags: ["React", "Supabase", "TypeScript", "Tailwind"],
       featured: true,
+      github: "https://github.com/zishuahmad/task-management",
+      demo: "https://task-manager-demo.vercel.app"
     },
     {
       title: "Weather Dashboard",
       description: "Interactive weather app with location-based forecasts and beautiful data visualizations.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=400&fit=crop",
+      image: weatherImg,
       tags: ["Vue.js", "Chart.js", "Weather API", "CSS"],
       featured: false,
+      github: "https://github.com/zishuahmad/weather-dashboard",
+      demo: "https://weather-app-demo.vercel.app"
     },
     {
       title: "Social Media Analytics",
       description: "Analytics dashboard for tracking social media performance across multiple platforms.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop",
+      image: analyticsImg,
       tags: ["React", "Python", "FastAPI", "PostgreSQL"],
       featured: false,
+      github: "https://github.com/zishuahmad/social-analytics",
+      demo: "https://analytics-demo.vercel.app"
     },
   ];
 
@@ -92,16 +104,22 @@ export const ProjectsSection = () => {
                       size="sm"
                       variant="outline"
                       className="border-primary/30 hover:border-primary hover:bg-primary/10"
+                      asChild
                     >
-                      <Github className="h-4 w-4 mr-2" />
-                      Code
+                      <a href={project.github} target="_blank" rel="noopener noreferrer">
+                        <Github className="h-4 w-4 mr-2" />
+                        Code
+                      </a>
                     </Button>
                     <Button
                       size="sm"
-                      className="bg-primary hover:bg-primary/90 text-background"
+                      className="bg-primary hover:bg-primary/90 text-primary-foreground"
+                      asChild
                     >
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      Live Demo
+                      <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="h-4 w-4 mr-2" />
+                        Live Demo
+                      </a>
                     </Button>
                   </div>
                 </div>
