@@ -20,7 +20,7 @@ export const WhyHireMeSection = () => {
     const targets = {
       projects: 50,
       clients: 30,
-      experience: 4,
+      experience: 2,
       satisfaction: 98
     };
 

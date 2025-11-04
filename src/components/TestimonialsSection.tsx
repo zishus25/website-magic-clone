@@ -28,11 +28,11 @@ export const TestimonialsSection = () => {
       initials: "ER"
     },
     {
-      name: "David Kumar",
+      name: "Manij Kumar",
       role: "CTO, InnovateTech",
       content: "Exceptional developer who goes above and beyond. Zishu's code is clean, well-documented, and scalable. Highly recommended!",
       rating: 5,
-      initials: "DK"
+      initials: "MK"
     }
   ];
 
