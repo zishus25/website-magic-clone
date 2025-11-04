@@ -17,7 +17,7 @@ export const ProjectsSection = () => {
       tags: ["Next.js", "Node.js", "MongoDB", "Stripe"],
       featured: true,
       github: "https://github.com/zishuahmad/ecommerce-platform",
-      demo: "https://ecommerce-demo.vercel.app"
+      demo: "https://juniorminds.store/"
     },
     {
       title: "Task Management App",
